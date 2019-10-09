@@ -38,23 +38,23 @@ print(f"s{s}")
 # 2. If no swaps performed, stop. Else, go back to the element at index 0 and repeat step 1.
 
 
-g = [3, 1, 0, 2, 4]
+# g = [3, 1, 0, 2, 4]
 
-def bubble_sort( arr ):
+# def bubble_sort( arr ):
 
-    for i in range(0, len(arr) - 1):
-        temp = arr[i]
-        j = i + 1
-        if arr[j] < arr[i]:
-            arr[i] = arr[j]
-            arr[j] = temp
+#     for i in range(0, len(arr) - 1):
+#         temp = arr[i]
+#         j = i + 1
+#         if arr[j] < arr[i]:
+#             arr[i] = arr[j]
+#             arr[j] = temp
         
-        print(f"gggggggg {arr}")
+#         print(f"gggggggg {arr}")
 
-    return arr
+#     return arr
 
-bubble_sort(g)
-print(f"g {g}")
+# bubble_sort(g)
+# print(f"g {g}")
 
 
 b = [3, 1, 0, 2, 4] 
