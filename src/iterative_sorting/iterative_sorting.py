@@ -57,9 +57,10 @@ print(f"s{s}")
 # print(f"g {g}")
 
 
+
 b = [3, 1, 0, 2, 4] 
 
-def bubble_sortYO(arr):
+def bubble_sort(arr):
     for i in range(len(arr) - 1):
         for j in range(len(arr) - 1 - i):
             if arr[j] > arr[j + 1]:
@@ -69,7 +70,7 @@ def bubble_sortYO(arr):
     return arr
 
 
-bubble_sortYO(b)
+bubble_sort(b)
 print(f"b {b}")
 
 
@@ -80,18 +81,5 @@ def count_sort( arr, maximum=-1 ):
 
 
 
-
-# def bubble_sort( arr ):
-#     has_swapped = True
-#     counter = 0
-#     while has_swapped:
-#         has_swapped = False
-#         for i in range(len(arr) - 1):
-#             counter += 1
-#             if arr[i] > arr[i+1]:
-#                 arr[i], arr[i+1] = arr[i+1], arr[i]
-#                 has_swapped = True
-#     print(counter)
-#     return arr
 
 
